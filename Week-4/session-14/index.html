@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function displayWindowProperpty(){
+            console.log("userAgen: ",window.navigator.userAgent);
+            console.log("screen Width",window.screen.width);
+            console.log("screen height:",window.screen.height);
+            console.log("location href",window.location.pathname);
+            console.log("location pathname",window.location);
+            console.log("session storgae",window.sessionStorage.setItem("email","kala.kanika1998@gmail,com"));
+            console.log("session stroage get name",window.sessionStorage.getItem("eamil"));
+            console.log("local stroage set age",window.localStorage.setItem("age",25));
+            console.log("local stroage get age",window.localStorage.getItem("age",25));
+    
+        }
+        window.onload=displayWindowProperpty;
+    </script>
+   
+
+</body>
+</html>
+
+
+navigator.userAgent
+• screen.width and screen.height
+• location.href and location.pathname
+• sessionStorage and localStorage properties. You can store and retrieve any data to/from
+sessionStorage and localStorage
