@@ -1,8 +1,8 @@
 import './App.css';
-import {ListBook} from './component/ListBook'
+import {BookList} from './component/BookList'
 function App() {
   return (
-   <ListBook></ListBook>
+   <BookList ></BookList>
   );
 }
 
